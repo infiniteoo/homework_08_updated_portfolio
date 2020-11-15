@@ -11,11 +11,7 @@ $(document).ready(function () {
             backDelay: 1500,
         });
     });
-    $(".parallax").each(function () {
-        $(this).parallaxie({
-            speed: 0.5,
-        });
-    });
+   
 });
 
 
