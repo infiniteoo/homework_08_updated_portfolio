@@ -4,13 +4,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Troy Dorman - Portfolio 2021</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Barrio&family=Roboto&family=Sedgwick+Ave+Display&display=swap"
+        rel="stylesheet">
+
 </head>
 
 <body>
+
+
+    <div class='wrapper'>
+
+        <nav id="sidebar" class='sidenav'>
+            <div class='sidebar-header d-inline-block'>
+                <img class="img-fluid rounded-pill d-block" src="img/troy_profile_pic.JPG" title="Troy" alt="">
+                <img id='my_pic' class='img-fluid rounded-pill d-block' />
+
+            </div>
+            <br>
+            <h1><span id='nav-name'>Troy Dorman</span></h1>
+            <ul class='navbar-nav text-lg-center my-lg-auto py-lg-3'>
+                <a href='#intro-section'>Home</a>
+                <a href="#bio-section">Bio</a>
+                <a href="#skills-section">Skills</a>
+                <a href="#example-section">Examples</a>
+                <a href="#connect-section">Connect</a>
+            </ul>
+        </nav>
+        <div id='content' class='main'>
+
+            <div class="main">
+                <section class="fitScreen vh-100" id="intro-section">
+                    Intro
+                </section>
+
+                <section class="fitScreen vh-100" id="bio-section" style="background-color: red">
+                    Bio
+                </section>
+
+                <section class="fitScreen vh-100" id="skills-section" style="background-color: blue">
+                    Skills
+                </section>
+
+                <section class="fitScreen vh-100" id="example-section" style="background-color: yellow">
+                    Examples
+                </section>
+                <section class="fitScreen vh-100" id="connect-section" style="background-color: cornflowerblue">
+                    Connect
+                </section>
+
+            </div>
+        </div>
+
+    </div>
+
+
+
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src='js/logic.js'></script>
+    <script src="include/parallaxie.min.js"></script>
+    <script src="include/typed.min.js"></script>
 </body>
 
 </html>
