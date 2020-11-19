@@ -13,7 +13,7 @@ h1 {
     font-family: 'Goldman', cursive;
 }
 
-#barsrow{
+#barsrow {
     font-size: 18px;
     color: white;
 }
@@ -23,16 +23,17 @@ hr {
     background-color: cornflowerblue;
     width: 50%;
 }
+
 .text-6 {
     font-size: 24px !important;
     font-size: 1.50rem !important;
     color: white;
-  }
+}
 
-  .text-5 {
+.text-5 {
     font-size: 21px !important;
     font-size: 1.3125rem !important;
-  }
+}
 
 .section-title {
     text-align: center;
@@ -178,18 +179,18 @@ hr {
     padding: 0px 10px;
 }
 
-#bio-section{
+#bio-section {
     border: 5px solid cornflowerblue;
     border-radius: 1px;
     border-right: none;
 }
 
-#skills-section{
+#skills-section {
     border-left: 5px solid white;
     border-radius: 1px;
 }
 
-#resume-exp{
+#resume-exp {
     font-size: 18px;
 }
 
