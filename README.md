@@ -65,21 +65,11 @@ This project can be previewed live via Github Pages at: https://infiniteoo.githu
 
 # Screenshots of Deployed Website
 
-## 992px Width 
-![screenshot 992px width](/img/992_1.PNG)
-![screenshot 992px width](/img/992_2.PNG)
-![screenshot 992px width](/img/992_3.PNG)
-
-## 768px Width 
-![screenshot 768px width](/img/768_1.PNG)
-![screenshot 768px width](/img/768_2.PNG)
-![screenshot 768px width](/img/768_3.PNG)
-
-## 400px Width 
-![screenshot 400px width](/img/400_1.PNG)
-![screenshot 400px width](/img/400_2.PNG)
-![screenshot 400px width](/img/400_3.PNG)
-
+![screenshot 992px width](/img/ss1.PNG)
+![screenshot 992px width](/img/ss2.PNG)
+![screenshot 992px width](/img/ss3.PNG)
+![screenshot 768px width](/img/ss4.PNG)
+![screenshot 768px width](/img/ss5.PNG)
 
 ### License
 
