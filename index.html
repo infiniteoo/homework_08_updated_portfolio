@@ -22,10 +22,10 @@
 <body>
 
 
-  <div class='container-fluid flex-wrap'>
+  <div class='container-fluid flex-wrap flex-container'>
 
     <nav id="sidebar" class='sidenav'>
-      <div class='sidebar-header d-inline-block'>
+      <div class='sidebar-header d-inline-block flex-container'>
         <img class="img-fluid rounded-pill d-block" src="img/troy_profile_pic.JPG" title="Troy" alt="">
         <img id='my_pic' class='img-fluid rounded-pill d-block' />
 
@@ -42,9 +42,9 @@
       </ul>
 
     </nav>
-    <div id='content' class='main'>
+    <!-- <div id='content' class='main flex-container'> -->
 
-      <div class="main">
+      <div  id='content' class="main flex-container">
         <section class="fitScreen vh-100" id="intro-section">
           <div class="hero-wrap">
             <div class="hero-content section d-flex fullscreen">
@@ -70,8 +70,8 @@
           </div>
         </section>
 
-        <section class="fitScreen vh-100" id="bio-section" style="background-color: #dddddd">
-          <section id="about" class="section">
+        <section class="fitScreen vh-100 flex-container" id="bio-section" style="background-color: #dddddd">
+          <section id="about" class="section flex-container">
             <div class="container px-lg-5">
               <!-- Heading -->
               <div class="position-relative text-center d-flex mb-5">
@@ -80,7 +80,7 @@
               <!-- Heading end-->
 
               <div class="row">
-                <div class="col-lg-7 text-center text-lg-left">
+                <div class="col-lg-7 text-center text-lg-left flex-container">
                   <h2 class="text-7 font-weight-600 mb-3">I'm <span class="text-primary">T. Wayne Dorman</span>, an
                     aspiring programmer.</h2>
                   <p>For the past two decades I've been working in the radio industry producing commercials and doing
@@ -93,7 +93,7 @@
                     production experience. I love to code and would be a tremendous addition to your team as a junior
                     back-end developer.</p>
                 </div>
-                <div class="col-lg-5 mt-5 mt-lg-0" id='troy-stats'>
+                <div class="col-lg-5 mt-5 mt-lg-0 flex-container" id='troy-stats'>
                   <div class="pl-4">
                     <ul class="list-style-2">
                       <li class=""><span class="font-weight-600 mr-2">Name:</span>T. Wayne Dorman</li>
@@ -107,11 +107,11 @@
                   </div>
                   <br>
                   <div>
-                    <i class="fa fa-user-circle fa-6" id='user-circle' aria-hidden="true"></i>
+                    <i class="fa fa-user-circle fa-6 flex-container" id='user-circle' aria-hidden="true"></i>
                   </div>
                 </div>
               </div>
-              <div class="brands-grid separator-border mt-5">
+              <div class="brands-grid separator-border mt-5 flex-container">
                 <div class="row">
                   <div class="col-6 col-md-3">
                     <div class="featured-box text-center">
@@ -147,19 +147,19 @@
           </section>
         </section>
 
-        <section class="fitScreen vh-100" id="skills-section">
-          <section id="resume" class="section bg-dark">
-            <div class="container px-lg-5 bg-dark">
+        <section class="fitScreen vh-100 flex-container" id="skills-section">
+          <section id="resume" class="section bg-dark flex-container">
+            <div class="container px-lg-5 bg-dark flex-container">
               <!-- Heading -->
-              <div class="position-relative text-center d-flex mb-5">
+              <div class="position-relative text-center d-flex mb-5 flex-container">
                 <h2 class="section-title" style="color: lightgrey">SKILLS</h2>
               </div>
               <!-- Heading end-->
 
-              <div class="row" id='resume-exp'>
-                <div class='col-md-12'>
+              <div class="row flex-container" id='resume-exp'>
+                <div class='col-md-12 flex-container'>
                   <h2 class="text-6 font-weight-600 mb-4">Education</h2>
-                  <div class="bg-white border rounded p-4 mb-4">
+                  <div class="bg-white border rounded p-4 mb-4 flex-container">
                     <p class="badge badge-primary text-2 font-weight-400">2020 - 2021</p>
                     <h3 class="text-5">Full-Stack Web Development</h3>
                     <p class="text-danger">University of Minnesota Coding Bootcamp</p>
@@ -386,7 +386,7 @@
       </div>
       </section>
 
-    </div>
+    <!-- </div> -->
   </div>
 
   </div>
