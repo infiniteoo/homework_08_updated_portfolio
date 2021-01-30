@@ -11,7 +11,7 @@ h1 {
     font-size: 2.7rem;
     text-align: center;
     font-family: 'Goldman', cursive;
-}s
+}
 
 #barsrow {
     font-size: 1.2rem;
@@ -231,8 +231,7 @@ hr {
     .sidenav a {
         font-size: 1.6rem;
     }
-   .vh-100{
-       height: 150vh;
-   }
-    
+    .vh-100 {
+        height: 150vh;
+    }
 }
